@@ -15,6 +15,8 @@
 		B8D9180822BC8CCC005943C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D9180622BC8CCC005943C4 /* LaunchScreen.storyboard */; };
 		B8D9181322BC8CCC005943C4 /* ARLearnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9181222BC8CCC005943C4 /* ARLearnerTests.swift */; };
 		B8D9181E22BC8CCC005943C4 /* ARLearnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9181D22BC8CCC005943C4 /* ARLearnerUITests.swift */; };
+		B8D9182C22BCA24E005943C4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B8D9182B22BCA24E005943C4 /* Inceptionv3.mlmodel */; };
+		B8D9182E22BCA946005943C4 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B8D9182D22BCA945005943C4 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B8D9181922BC8CCC005943C4 /* ARLearnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLearnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D9181D22BC8CCC005943C4 /* ARLearnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLearnerUITests.swift; sourceTree = "<group>"; };
 		B8D9181F22BC8CCC005943C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D9182B22BCA24E005943C4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		B8D9182D22BCA945005943C4 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../Downloads/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 				B8D917FC22BC8CCB005943C4 /* ViewController.swift */,
 				B8D917FE22BC8CCB005943C4 /* Main.storyboard */,
 				B8D9180422BC8CCC005943C4 /* Assets.xcassets */,
+				B8D9182B22BCA24E005943C4 /* Inceptionv3.mlmodel */,
 				B8D9180622BC8CCC005943C4 /* LaunchScreen.storyboard */,
+				B8D9182D22BCA945005943C4 /* SqueezeNet.mlmodel */,
 				B8D9180922BC8CCC005943C4 /* Info.plist */,
 				B8D9180122BC8CCB005943C4 /* ARLearner.xcdatamodeld */,
 			);
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8D917FD22BC8CCB005943C4 /* ViewController.swift in Sources */,
+				B8D9182C22BCA24E005943C4 /* Inceptionv3.mlmodel in Sources */,
+				B8D9182E22BCA946005943C4 /* SqueezeNet.mlmodel in Sources */,
 				B8D9180322BC8CCB005943C4 /* ARLearner.xcdatamodeld in Sources */,
 				B8D917FB22BC8CCB005943C4 /* AppDelegate.swift in Sources */,
 			);
